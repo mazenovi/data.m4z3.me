@@ -8,10 +8,12 @@
   <a href="http://www.atmoauvergne.asso.fr/fr/mesures/mesures-automatiques-par-station?mesauv_station=034&mesauv_date%5Bdate%5D=15%2F04%2F2014&op=Rechercher&form_build_id=form-3wnajQdUzQc6y4Lt0gQnENGiey64sw8tFn3zbcDncF4&form_id=_get_mesures_par_station_formulaire">source: Atmo Auvergne</a>
 </p>
 <h4>L'idée</h4>
-Après les pics de pollutions de mars 2014 j'ai voulu avoir une vision globale sur l'évolution de la qualité de l'air à Clemrotn Ferrand. Atmo Auvergne présente ces données mais sous une forme quotidienne ce qui rend l'analyse temporelle fastidieuse. J'ai donc écrit un scraper en casperjs permettant de récupérer toutes les données sur une période donnée et de les stocker dans un csv.
-J'ai utilisé la librairie JS Dygraphs pour générer le graph dynamique ci dessus.
+Après les pics de pollutions de mars 2014 j'ai voulu avoir une vision globale sur l'évolution de la qualité de l'air à Clermont Ferrand. <a href="http://www.atmoauvergne.asso.fr/">Atmo Auvergne</a> présente ces données mais sous une forme quotidienne ce qui rend l'analyse temporelle fastidieuse. J'ai donc écrit un <a href="http://fr.wikipedia.org/wiki/Web_scraping">web scraper</a> en <a href="http://casperjs.org/">casperjs</a> permettant de récupérer toutes les données sur une période donnée et de les stocker dans un csv.
+J'ai utilisé la librairie <a href="http://dygraphs.com/">dygraphs</a> pour générer les graphs ci dessus.
 <h3>Todo</h3>
 <ul>
+	<li>croner la récupération des données</li>
 	<li>Etendre le scraper aux autres sondes</li>
+	<li>croiser avec des données météorologiques</li>
 </ul>
 
